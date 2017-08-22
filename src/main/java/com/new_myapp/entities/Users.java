@@ -3,8 +3,6 @@ package com.new_myapp.entities;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.persistence.ElementCollection;
-import javax.persistence.FetchType;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -34,7 +32,7 @@ public class Users {
 		UNVERIFIED, BLOCKED, USER, STUDENT, ADMIN
 	}
 
-	@ElementCollection(fetch = FetchType.EAGER)
+//	@ElementCollection(fetch = FetchType.EAGER)
 	private Set<Role> roles = new HashSet<Role>();
 	
 	

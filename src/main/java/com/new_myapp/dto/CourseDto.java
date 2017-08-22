@@ -8,7 +8,7 @@ import com.new_myapp.entities.Sections;
 
 public class CourseDto {
 	
-	private BigInteger id;
+	private String id;
 	
 	private String title;
 	private String price;
@@ -42,7 +42,7 @@ public class CourseDto {
 	}
 
 
-	public BigInteger getId() {
+	public String getId() {
 		return id;
 	}
 
@@ -56,8 +56,8 @@ public class CourseDto {
 
 
 
-	public void setId(BigInteger bigInteger) {
-		this.id = bigInteger;
+	public void setId(String string) {
+		this.id = string;
 	}
 
 

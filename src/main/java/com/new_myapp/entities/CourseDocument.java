@@ -1,19 +1,15 @@
 package com.new_myapp.entities;
 
-import java.math.BigInteger;
-
-import javax.persistence.Id;
-
 public class CourseDocument {
 	
-	@Id
-	private BigInteger id;
+	
+	private String id;
 
-	public BigInteger getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(BigInteger id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
